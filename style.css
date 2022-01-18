@@ -40,28 +40,28 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1100px;
+    width: 1110px;
 }
 
 .card-info {
-    width: 60%;
+    width: 570px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .card-info__inner {
-    width: 350px;
-    height: 350px;
+    width: 375px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding-right: 20px;
 }
 
 .card-info__title {
     color: #fff;
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 35px;
 }
 
@@ -72,6 +72,7 @@ main {
 .card-info__desc {
     color: var(--mainParagraph);
     line-height: 1.5;
+    font-size: .9rem;
     margin-bottom: 75px;
 }
 
@@ -79,8 +80,8 @@ main {
     color: var(--statHeadings);
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    font-size: 1.2em;
+    width: 90%;
+    font-size: 1.1em;
 }
 
 .card-info__stats h3 {
@@ -88,12 +89,13 @@ main {
     margin-bottom: 5px;
 }
 
-;
+.card-info__stats li:nth-child(2) {}
+
 .card-info__stats p {
     color: var(--mainParagraph);
 }
 
 .card-img {
-    display: block;
     border-radius: 0 10px 10px 0;
+    display: block;
 }
