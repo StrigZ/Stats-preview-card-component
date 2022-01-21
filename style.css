@@ -40,32 +40,11 @@ main {
     width: 350px;
     border-radius: 10px;
     box-shadow: 0 0 3px 0 currentColor;
+    overflow: hidden;
 }
 
 .pc {
     display: none;
-}
-
-.card__img-container {
-    border-radius: 10px 10px 0 0;
-    position: relative;
-    height: 100%;
-}
-
-.card__img-overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    background-color: hsl(277, 64%, 61%);
-    border-radius: inherit;
-}
-
-.card__img-img {
-    display: block;
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    opacity: .4;
 }
 
 .mobile {
@@ -134,11 +113,6 @@ main {
         grid-template-columns: 1fr auto;
         grid-template-rows: 1fr auto;
         padding-left: 2rem;
-    }
-    .card__img-img,
-    .card__img-overlay,
-    .pc {
-        border-radius: 0 10px 10px 0;
     }
     .card__info {
         text-align: left;
